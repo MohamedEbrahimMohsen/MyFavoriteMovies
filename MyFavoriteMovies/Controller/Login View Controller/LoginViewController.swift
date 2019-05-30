@@ -40,11 +40,10 @@ class LoginViewController: UIViewController {
                 }
             }
             print("Success - Login")
-            self.enableUI(isEnabled: false)
+            self.enableUI(isEnabled: true)
         }
-        enableUI(isEnabled: true)
+        //enableUI(isEnabled: true)
     }
-    
     
     // MARK: Complete Login
     private func completeLogin() {

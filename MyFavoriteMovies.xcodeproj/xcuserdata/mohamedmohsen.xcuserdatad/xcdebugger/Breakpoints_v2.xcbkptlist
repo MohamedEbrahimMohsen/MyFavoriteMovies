@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFavoriteMovies/Controller/TMDBAuthViewController.swift"
-            timestampString = "580866294.056092"
+            timestampString = "580941248.94958"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
@@ -346,7 +346,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFavoriteMovies/Controller/TMDBAuthViewController.swift"
-            timestampString = "580866294.056661"
+            timestampString = "580941248.950491"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -394,7 +394,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFavoriteMovies/Controller/TMDBAuthViewController.swift"
-            timestampString = "580866294.056874"
+            timestampString = "580941248.951035"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFavoriteMovies/Controller/TMDBAuthViewController.swift"
-            timestampString = "580866294.056962"
+            timestampString = "580941248.951434"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -538,7 +538,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFavoriteMovies/Controller/Login View Controller/LoginViewController.swift"
-            timestampString = "580923945.232422"
+            timestampString = "580941248.952015"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -554,7 +554,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFavoriteMovies/Controller/Login View Controller/LoginViewController.swift"
-            timestampString = "580923945.2330461"
+            timestampString = "580941248.952094"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
@@ -602,11 +602,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFavoriteMovies/Controller/Login View Controller/LoginViewController.swift"
-            timestampString = "580923945.2333601"
+            timestampString = "580941248.952161"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "completeLogin()"
             landmarkType = "7">
          </BreakpointContent>
@@ -614,11 +614,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFavoriteMovies/Controller/TMDBAuthViewController.swift"
-            timestampString = "580866294.057542"
+            timestampString = "580941248.952229"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
@@ -634,7 +634,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyFavoriteMovies/Controller/TMDBAuthViewController.swift"
-            timestampString = "580866294.057659"
+            timestampString = "580941248.952675"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -1121,6 +1121,38 @@
                   offsetFromSymbolStart = "261">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyFavoriteMovies/View/UI Classes/Extensions.swift"
+            timestampString = "580924027.4794919"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "isEnabled"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyFavoriteMovies/Controller/TMDBAuthViewController.swift"
+            timestampString = "580941248.954003"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "webView(_:didFinish:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

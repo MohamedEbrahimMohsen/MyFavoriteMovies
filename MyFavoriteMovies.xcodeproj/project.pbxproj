@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDECE6B322873879003EF2E4 /* TMDBMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDECE6B222873879003EF2E4 /* TMDBMovie.swift */; };
+		CDECE6B322873879003EF2E4 /* TMDBMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDECE6B222873879003EF2E4 /* TMDBMovieModel.swift */; };
 		CDECE6B522873A9B003EF2E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDECE6B422873A9B003EF2E4 /* Extensions.swift */; };
 		CDED3E6A229F3E8C000D48E7 /* WatchListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDED3E69229F3E8C000D48E7 /* WatchListTableViewController.swift */; };
 		CDED3E6C229F4558000D48E7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDED3E6B229F4558000D48E7 /* SearchViewController.swift */; };
 		CDED3E6E229F62C0000D48E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDED3E6D229F62C0000D48E7 /* HomeViewController.swift */; };
 		CDEF17412288B114005F2F0D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF17402288B114005F2F0D /* Constants.swift */; };
 		CDEF9BB02286F8C70015D219 /* TMDBConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF9BAF2286F8C70015D219 /* TMDBConfig.swift */; };
+		CDF023BB22A06F6F002B64B6 /* TMDB_POSTMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF023BA22A06F6F002B64B6 /* TMDB_POSTMethods.swift */; };
+		CDF023C222A0723E002B64B6 /* TMDB_GETMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF023C122A0723E002B64B6 /* TMDB_GETMethods.swift */; };
+		CDF023C422A0727A002B64B6 /* TMDB_GETFavoriteMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF023C322A0727A002B64B6 /* TMDB_GETFavoriteMovies.swift */; };
+		CDF023C622A072A0002B64B6 /* TMDB_GETWatchlistMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF023C522A072A0002B64B6 /* TMDB_GETWatchlistMovies.swift */; };
+		CDF023C822A072BF002B64B6 /* TMDB_GETMoviesForQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF023C722A072BF002B64B6 /* TMDB_GETMoviesForQuery.swift */; };
+		CDF023CA22A07383002B64B6 /* TMDB_GETPlayingNowMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF023C922A07383002B64B6 /* TMDB_GETPlayingNowMovies.swift */; };
+		CDF023CC22A073DD002B64B6 /* TMDB_POSTMovieToFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF023CB22A073DD002B64B6 /* TMDB_POSTMovieToFavorite.swift */; };
+		CDF023CE22A073F5002B64B6 /* TMDB_POSTMovieToWatchlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF023CD22A073F5002B64B6 /* TMDB_POSTMovieToWatchlist.swift */; };
 		CDF027F22285A6A800E2E819 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF027F12285A6A800E2E819 /* RoundedButton.swift */; };
 		CDF029E72280C58100E2CAAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF029E62280C58100E2CAAE /* AppDelegate.swift */; };
 		CDF029EC2280C58100E2CAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF029EA2280C58100E2CAAE /* Main.storyboard */; };
@@ -37,13 +45,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDECE6B222873879003EF2E4 /* TMDBMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBMovie.swift; sourceTree = "<group>"; };
+		CDECE6B222873879003EF2E4 /* TMDBMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBMovieModel.swift; sourceTree = "<group>"; };
 		CDECE6B422873A9B003EF2E4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CDED3E69229F3E8C000D48E7 /* WatchListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListTableViewController.swift; sourceTree = "<group>"; };
 		CDED3E6B229F4558000D48E7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CDED3E6D229F62C0000D48E7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CDEF17402288B114005F2F0D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CDEF9BAF2286F8C70015D219 /* TMDBConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBConfig.swift; sourceTree = "<group>"; };
+		CDF023BA22A06F6F002B64B6 /* TMDB_POSTMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_POSTMethods.swift; sourceTree = "<group>"; };
+		CDF023C122A0723E002B64B6 /* TMDB_GETMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_GETMethods.swift; sourceTree = "<group>"; };
+		CDF023C322A0727A002B64B6 /* TMDB_GETFavoriteMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_GETFavoriteMovies.swift; sourceTree = "<group>"; };
+		CDF023C522A072A0002B64B6 /* TMDB_GETWatchlistMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_GETWatchlistMovies.swift; sourceTree = "<group>"; };
+		CDF023C722A072BF002B64B6 /* TMDB_GETMoviesForQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_GETMoviesForQuery.swift; sourceTree = "<group>"; };
+		CDF023C922A07383002B64B6 /* TMDB_GETPlayingNowMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_GETPlayingNowMovies.swift; sourceTree = "<group>"; };
+		CDF023CB22A073DD002B64B6 /* TMDB_POSTMovieToFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_POSTMovieToFavorite.swift; sourceTree = "<group>"; };
+		CDF023CD22A073F5002B64B6 /* TMDB_POSTMovieToWatchlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_POSTMovieToWatchlist.swift; sourceTree = "<group>"; };
 		CDF027F12285A6A800E2E819 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		CDF029E32280C58100E2CAAE /* MyFavoriteMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavoriteMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF029E62280C58100E2CAAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +96,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CDF023B522A06E9D002B64B6 /* TMDB POST */ = {
+			isa = PBXGroup;
+			children = (
+				CDF023BA22A06F6F002B64B6 /* TMDB_POSTMethods.swift */,
+				CDF023CB22A073DD002B64B6 /* TMDB_POSTMovieToFavorite.swift */,
+				CDF023CD22A073F5002B64B6 /* TMDB_POSTMovieToWatchlist.swift */,
+			);
+			path = "TMDB POST";
+			sourceTree = "<group>";
+		};
+		CDF023B622A06EA8002B64B6 /* TMDB GET */ = {
+			isa = PBXGroup;
+			children = (
+				CDF023C122A0723E002B64B6 /* TMDB_GETMethods.swift */,
+				CDF023C322A0727A002B64B6 /* TMDB_GETFavoriteMovies.swift */,
+				CDF023C522A072A0002B64B6 /* TMDB_GETWatchlistMovies.swift */,
+				CDF023C722A072BF002B64B6 /* TMDB_GETMoviesForQuery.swift */,
+				CDF023C922A07383002B64B6 /* TMDB_GETPlayingNowMovies.swift */,
+			);
+			path = "TMDB GET";
+			sourceTree = "<group>";
+		};
+		CDF023B722A06ED3002B64B6 /* TMDB Constatnts */ = {
+			isa = PBXGroup;
+			children = (
+				CDF09CBE229972E300645A42 /* TMDBConstants.swift */,
+			);
+			path = "TMDB Constatnts";
+			sourceTree = "<group>";
+		};
+		CDF023BC22A0706C002B64B6 /* TMDB Data */ = {
+			isa = PBXGroup;
+			children = (
+				CDECE6B222873879003EF2E4 /* TMDBMovieModel.swift */,
+				CDF09435228B699A00BD820C /* Serialization.swift */,
+			);
+			path = "TMDB Data";
+			sourceTree = "<group>";
+		};
 		CDF027F02285A65900E2E819 /* UI Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,23 +229,24 @@
 		CDF09CBA2299724A00645A42 /* Cients */ = {
 			isa = PBXGroup;
 			children = (
-				CDF09CBB2299725000645A42 /* TMDB */,
+				CDF023BC22A0706C002B64B6 /* TMDB Data */,
+				CDF023B722A06ED3002B64B6 /* TMDB Constatnts */,
+				CDF023B622A06EA8002B64B6 /* TMDB GET */,
+				CDF023B522A06E9D002B64B6 /* TMDB POST */,
+				CDF09CBB2299725000645A42 /* TMDB Client */,
 			);
 			path = Cients;
 			sourceTree = "<group>";
 		};
-		CDF09CBB2299725000645A42 /* TMDB */ = {
+		CDF09CBB2299725000645A42 /* TMDB Client */ = {
 			isa = PBXGroup;
 			children = (
 				CDF09CBC229972B300645A42 /* TMDBClient.swift */,
 				CDF08A0C229AC390007033F2 /* TMDBConvenience.swift */,
-				CDF09CBE229972E300645A42 /* TMDBConstants.swift */,
-				CDECE6B222873879003EF2E4 /* TMDBMovie.swift */,
 				CDEF9BAF2286F8C70015D219 /* TMDBConfig.swift */,
-				CDF09435228B699A00BD820C /* Serialization.swift */,
 				CDF09CC02299796900645A42 /* TMDBSharedInstances.swift */,
 			);
-			path = TMDB;
+			path = "TMDB Client";
 			sourceTree = "<group>";
 		};
 		CDF16AC5229AEF0400E083F1 /* Login View Controller */ = {
@@ -274,8 +330,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDECE6B322873879003EF2E4 /* TMDBMovie.swift in Sources */,
+				CDECE6B322873879003EF2E4 /* TMDBMovieModel.swift in Sources */,
 				CDEF17412288B114005F2F0D /* Constants.swift in Sources */,
+				CDF023C422A0727A002B64B6 /* TMDB_GETFavoriteMovies.swift in Sources */,
+				CDF023C622A072A0002B64B6 /* TMDB_GETWatchlistMovies.swift in Sources */,
+				CDF023C222A0723E002B64B6 /* TMDB_GETMethods.swift in Sources */,
 				CDF16AD5229AEF0500E083F1 /* ErrorHandling.swift in Sources */,
 				CDED3E6A229F3E8C000D48E7 /* WatchListTableViewController.swift in Sources */,
 				CDF16AD7229AEF0500E083F1 /* LoginViewController.swift in Sources */,
@@ -289,14 +348,19 @@
 				CDECE6B522873A9B003EF2E4 /* Extensions.swift in Sources */,
 				CDED3E6C229F4558000D48E7 /* SearchViewController.swift in Sources */,
 				CDF029FA2280E89000E2CAAE /* BorderedButton.swift in Sources */,
+				CDF023CE22A073F5002B64B6 /* TMDB_POSTMovieToWatchlist.swift in Sources */,
+				CDF023C822A072BF002B64B6 /* TMDB_GETMoviesForQuery.swift in Sources */,
 				CDF16ADB229AEF0500E083F1 /* MovieDetailsViewController.swift in Sources */,
 				CDF16AB4229AE9D000E083F1 /* TMDBAuthViewController.swift in Sources */,
 				CDF16ADD229AF5C500E083F1 /* GCDBlackBox.swift in Sources */,
 				CDF08A0D229AC390007033F2 /* TMDBConvenience.swift in Sources */,
 				CDF16AD9229AEF0500E083F1 /* FavoritesViewController.swift in Sources */,
 				CDF027F22285A6A800E2E819 /* RoundedButton.swift in Sources */,
+				CDF023CA22A07383002B64B6 /* TMDB_GETPlayingNowMovies.swift in Sources */,
+				CDF023CC22A073DD002B64B6 /* TMDB_POSTMovieToFavorite.swift in Sources */,
 				CDF16ADA229AEF0500E083F1 /* GenreTableViewController.swift in Sources */,
 				CDEF9BB02286F8C70015D219 /* TMDBConfig.swift in Sources */,
+				CDF023BB22A06F6F002B64B6 /* TMDB_POSTMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
