@@ -44,7 +44,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="FSN-iI-e3O"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                <state key="normal" title="LogIn">
+                                                <state key="normal" title="Login">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>

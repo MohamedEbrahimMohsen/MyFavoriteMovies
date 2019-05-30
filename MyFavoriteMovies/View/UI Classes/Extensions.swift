@@ -15,6 +15,9 @@ extension UIButton {
             if newValue == false {
                 self.setTitleColor(.gray, for: .disabled)
             }
+            else {
+                self.setTitleColor(.white, for: .normal)
+            }
         }
     }
 }

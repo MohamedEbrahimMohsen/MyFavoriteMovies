@@ -42,7 +42,7 @@ class LoginViewController: UIViewController {
             print("Success - Login")
             self.enableUI(isEnabled: false)
         }
-        //enableUI(isEnabled: true)
+        enableUI(isEnabled: true)
     }
     
     
