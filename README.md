@@ -76,7 +76,6 @@ When the app first starts it will open the login view.
 > Asynchronous Programming
 
   # Demo
-  **Unfortunately, this app is still under developing, so it has not any demos yet.**
-  
+https://youtu.be/flBiVZJQhV8  
   
   
