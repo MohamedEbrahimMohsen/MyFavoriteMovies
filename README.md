@@ -69,6 +69,9 @@ When the app first starts it will open the login view.
 > Udacity &nbsp; &nbsp; &nbsp;
 > Extensions &nbsp; &nbsp; &nbsp;
 > Foundation &nbsp; &nbsp; &nbsp;
+> Tab View Controller &nbsp; &nbsp; &nbsp;
+> OAuth Methedology &nbsp; &nbsp; &nbsp;
+> Third Party Authentication &nbsp; &nbsp; &nbsp;
 
   # Demo
   **Unfortunately, this app is still under developing, so it has not any demos yet.**
