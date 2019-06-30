@@ -22,7 +22,7 @@ _This app uses the following frameworks & technologies_
 ## App Specifications
 The app will have two view scenes.
   - Login View: Allows the user to login using the TMDB credentials.
-  - Movies View: Consists of fours views (Home, Search, Favorite and Watchlist)
+  - Movies View: _Tab_ view consists of fours tab views (Home, Search, Favorite and Watchlist).
     
 The scenes are described in detail below.
 
@@ -42,7 +42,7 @@ When the app first starts it will open the login view.
 
 ## 2) Movies View
 
-  - This view should be a _Tab View Controller_ has four tabs (_Home, Search, Favorite and Watchlist_)
+This view should be a _Tab View Controller_ has four tabs (_Home, Search, Favorite and Watchlist_)
   - **_Home_** tab should has the latest movies in cinema now.
   - **_Search_** tab allows user for live search for any movie by writing the movie name(_not all the movie name_) 
   - **_Favorite_** tab shows user his/her favorite movies.
