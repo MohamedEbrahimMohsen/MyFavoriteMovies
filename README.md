@@ -72,6 +72,8 @@ When the app first starts it will open the login view.
 > Tab View Controller &nbsp; &nbsp; &nbsp;
 > OAuth Methedology &nbsp; &nbsp; &nbsp;
 > Third Party Authentication &nbsp; &nbsp; &nbsp;
+> AutoLayout &nbsp; &nbsp; &nbsp;
+> Asynchronous Programming
 
   # Demo
   **Unfortunately, this app is still under developing, so it has not any demos yet.**
