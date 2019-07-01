@@ -21,8 +21,8 @@ _This app uses the following frameworks & technologies_
 
 ## App Specifications
 The app will have two view scenes.
-  - Login View: Allows the user to login using the TMDB credentials.
-  - Movies View: _Tab_ view consists of fours tab views (Home, Search, Favorite and Watchlist).
+  - **_Login View_**: Allows the user to login using the TMDB credentials.
+  - **_Movies View_**: _Tab_ view consists of fours tab views (Home, Search, Favorite and Watchlist).
     
 The scenes are described in detail below.
 
